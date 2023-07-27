@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dollyapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dollyapp
+  template:
+    metadata:
+      labels:
+        app: dollyapp
+    spec:
+      containers:
+        - name: dollyapp
+          image: avurlerby/dollyapp:latest
+          ports:
+            - containerPort: 8080
