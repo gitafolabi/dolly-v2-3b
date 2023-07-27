@@ -14,7 +14,7 @@ Build the Docker image by running:
 
 - docker tag dollyapp avurlerby/dollyapp:latest
 
-- docker push dollyapp avurlerby/dollyapp:latest
+- docker push avurlerby/dollyapp:latest
 
 Then deploy to Kubernetes, cd infra/deployment/
 
