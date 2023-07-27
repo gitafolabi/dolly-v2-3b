@@ -16,7 +16,9 @@ Build the Docker image by running:
 
 - docker push avurlerby/dollyapp:latest
 
-Then deploy to Kubernetes, cd infra/deployment/
+Then deploy to Kubernetes, cd to the deployment directory.
+
+- cd infra/deployment/
 
 Create dollyapp namespace:
 
