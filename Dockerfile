@@ -9,4 +9,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 8080
 
-RUN python3 /app/main.py
+CMD [ "python", "main.py" ]
