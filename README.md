@@ -41,7 +41,7 @@ Check the pods status:
 
 - kubectl describe pods -n dollyapp
 
-If the pod is running, image has been pulled and the Container has been started, check the logs of the pods to see if the app is running as ecpected
+If the pod is running, image has been pulled and the Container has been started, check the logs of the pods to see if the app is running as expected
 
 - kubectl logs -f <dollyapp-pod-name> -n dollyapp.
 
